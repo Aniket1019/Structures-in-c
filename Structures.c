@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-// create struct with person1 variable
+// create struct with personal variable
 struct student
 {
     char name[50];
@@ -25,5 +25,6 @@ int main()
 printf("Name: %s\n", student1.name);
 printf("PRN: %d\n", student1.prn);
 printf("GPA: %.2f\n", student1.gpa);
+    
 return 0;
 }
